@@ -260,7 +260,7 @@ def main():
     1. For your text2Speech, select your input text language and your output speech language. Then use the convert button. 
     2. Upload your wav audio file to begin your speech2text analyses
     3. If your file does not upload, make sure it's a mono-channel file, i.e having only one audio source.
-    4. If your file isn't wav formated, do not worry, [click here](https;//www.movavi.com/support/how-to/how-to-convert-music-to-wav.html) 
+    4. If your file isn't wav formated, do not worry, [click here](https://www.movavi.com/support/how-to/how-to-convert-music-to-wav.html) 
        and head over to "Online Converter" to upload your file.
     5. if you are getting "Sorry...Run Again" message when you upload file, try running again when you have a stable
        network 
