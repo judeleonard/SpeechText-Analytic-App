@@ -1,0 +1,10 @@
+streamlit==0.82.0
+matplotlib==3.3.3
+numpy==1.19.4
+wave==0.0.2
+gtts==2.2.2
+googletrans==3.1.0a0
+speechrecognition==3.8.1
+nltk==3.6.2
+spacy==3.0.6
+spacy-streamlit==1.0.0
