@@ -20,7 +20,7 @@ import spacy_streamlit as ss
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
-# nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 from PIL import Image
 
@@ -199,7 +199,7 @@ def main():
                 wav = wave.open(AUDIO_PATH, 'rb')  # open wave file using the wave library
                 raw = wav.readframes(-1)        # reading the entire wave audio frame which returns the frame as a byte object
                 raw = np.frombuffer(raw, "int16")  # we use numpy to convert audio bytes into an array
-                sample_rate = wav.getframerate() 
+                sample_rate = wav.getframerate()
 
                 Time = np.linspace(0, len(raw)/sample_rate, num=len(raw))
                 fig, ax = plt.subplots()
