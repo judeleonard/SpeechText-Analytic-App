@@ -34,15 +34,7 @@ st.image(img, width=650)
 st.subheader("Navigate to side bar to see more options")
 
 # re-configuring page layout to restrict users from overwriting the app configuraion
-page_bg_img = '''
-<style>
-body {
-background-image: url("");
-bakground-size: cover;
-}
-</style>
-'''
-st.markdown(page_bg_img, unsafe_allow_html=True)
+
 hide_streamlit_style = '''
             <style>
             #MainMenu {visibility: hidden;}
@@ -124,7 +116,7 @@ def main():
                 "India",
                 "United Kingdom",
                 "United States",
-                "Canada",
+                "Nigeria",
                 "South Africa",
             ),
         )
@@ -135,8 +127,8 @@ def main():
             tld = "co.in"
         elif english_accent == "United Kingdom":
             tld = "co.uk"
-        elif english_accent == "Canada":
-            tld = "ca"
+        elif english_accent == "Nigeria":
+            tld = "ng"
         elif english_accent == "South Africa":
             tld = "co.za"
         elif english_accent == "United States":
@@ -261,7 +253,7 @@ def main():
     2. Upload your wav audio file to begin your speech2text analyses
     3. If your file does not upload, make sure it's a mono-channel file, i.e having only one audio source.
     4. If your file isn't wav formated, do not worry, [click here](https://www.movavi.com/support/how-to/how-to-convert-music-to-wav.html) 
-       and head over to "Online Converter" to upload your file.
+       and head over to "Online Converter" to upload your mp3 file.
     5. if you are getting "Sorry...Run Again" message when you upload file, try running again when you have a stable
        network 
     
