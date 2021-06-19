@@ -5,6 +5,8 @@ This is an AI web application that offers transcription of text to speech and sp
 
 [App Demo](https://res.cloudinary.com/dfgg73dvr/video/upload/v1624127072/ezgif.com-gif-maker_k56lry.mp4)
 
+[Live App](share.steamlit.io/judeleonard/speechtext-analytic-app/myapp.py)
+
 ## Inspiration
 The most common part of the Natural Language Processing is the written text, which is hugely available and can come in the form of documents, scraped data from websites etc. Many firms and organization rely on the processing of 
 these collected data to derive insights to better serve their customers. On the other hand, speech is another basic form of human language that is quite difficult to process and achieve state of the art performance owing to it's dependency on several factors. There are many organization for instance, the Telecommunication industries that generate audio files
