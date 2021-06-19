@@ -50,7 +50,7 @@ analyze = st.sidebar.selectbox(
 
 def main():
 
-     #----- Text to Audio------
+     #----- Text to Audio------------------------------------------------------
     if analyze == "Text2Speech_Analytics":
 
         # converting a text to audio would require a directory to save this file
@@ -159,7 +159,7 @@ def main():
                 st.write(f" {output_text}")
 
 
-# ------- audio to text ------------
+# ------- audio to text ----------------------------------------------------
 
     if analyze == "Audio2Text_Analytics":
 
@@ -199,9 +199,9 @@ def main():
                 wav = wave.open(AUDIO_PATH, 'rb')  # open wave file using the wave library
                 raw = wav.readframes(-1)        # reading the entire wave audio frame which returns the frame as a byte object
                 raw = np.frombuffer(raw, "int16")  # we use numpy to convert audio bytes into an array
-                sampleRate = wav.getframerate() 
+                sample_rate = wav.getframerate() 
 
-                Time = np.linspace(0, len(raw)/sampleRate, num=len(raw))
+                Time = np.linspace(0, len(raw)/sample_rate, num=len(raw))
                 fig, ax = plt.subplots()
                 plt.plot(Time, raw, color='blue')
                 ax.set_xlabel('Time (seconds)')
