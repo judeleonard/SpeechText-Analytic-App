@@ -262,7 +262,7 @@ def main():
      # preview app demo
     demo = st.sidebar.checkbox('App Demo')
     if demo == 1:
-       st.sidebar.video('https://res.cloudinary.com/dfgg73dvr/video/upload/v162394101/Demoapp_qohjc5.mp4', format='mp4')
+       st.sidebar.video('https://res.cloudinary.com/dfgg73dvr/video/upload/v1624127072/ezgif.com-gif-maker_k56lry.mp4', format='mp4')
 
     st.sidebar.header("")
 
