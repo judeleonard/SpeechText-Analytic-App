@@ -1,0 +1,611 @@
+
+[client] Deleting app...
+[client] Provisioning machine...
+[client] Preparing system...
+[32m[manager] [0mStarting up for owner: 'judeleonard', repository: 'speechtext-analytic-app', branch: 'master', main module: 'myapp.py'
+[32m[manager] [0mCloning repository ...
+[32m[manager] [0mCloning into 'speechtext-analytic-app'...
+
+[32m[manager] [0mCloned repository!
+[32m[manager] [0mProcessing dependencies ...
+Collecting streamlit==0.82.0
+  Downloading streamlit-0.82.0-py2.py3-none-any.whl (8.2 MB)
+Collecting matplotlib==3.3.3
+  Downloading matplotlib-3.3.3-cp37-cp37m-manylinux1_x86_64.whl (11.6 MB)
+Collecting numpy==1.19.4
+  Downloading numpy-1.19.4-cp37-cp37m-manylinux2010_x86_64.whl (14.5 MB)
+Collecting wave==0.0.2
+  Downloading Wave-0.0.2.zip (38 kB)
+Collecting gtts==2.2.2
+  Downloading gTTS-2.2.2-py3-none-any.whl (25 kB)
+Collecting googletrans==3.1.0a0
+  Downloading googletrans-3.1.0a0.tar.gz (19 kB)
+[client] Spinning up manager process...
+Collecting speechrecognition==3.8.1
+  Downloading SpeechRecognition-3.8.1-py2.py3-none-any.whl (32.8 MB)
+Collecting nltk==3.6.2
+  Downloading nltk-3.6.2-py3-none-any.whl (1.5 MB)
+Collecting spacy==3.0.6
+  Downloading spacy-3.0.6-cp37-cp37m-manylinux2014_x86_64.whl (12.8 MB)
+Collecting spacy-streamlit==1.0.0
+  Downloading spacy_streamlit-1.0.0-py3-none-any.whl (10 kB)
+Collecting blinker
+  Downloading blinker-1.4.tar.gz (111 kB)
+Collecting requests
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+Collecting cachetools>=4.0
+  Downloading cachetools-4.2.2-py3-none-any.whl (11 kB)
+Collecting click<8.0,>=7.0
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting protobuf!=3.11,>=3.6.0
+  Downloading protobuf-3.17.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+Collecting pandas>=0.21.0
+  Downloading pandas-1.2.4-cp37-cp37m-manylinux1_x86_64.whl (9.9 MB)
+Collecting tzlocal
+  Downloading tzlocal-2.1-py2.py3-none-any.whl (16 kB)
+Collecting altair>=3.2.0
+  Downloading altair-4.1.0-py3-none-any.whl (727 kB)
+Collecting pyarrow
+  Downloading pyarrow-4.0.1-cp37-cp37m-manylinux2014_x86_64.whl (21.8 MB)
+Collecting pydeck>=0.1.dev5
+  Downloading pydeck-0.6.2-py2.py3-none-any.whl (4.2 MB)
+Collecting validators
+  Downloading validators-0.18.2-py3-none-any.whl (19 kB)
+Collecting packaging
+  Downloading packaging-20.9-py2.py3-none-any.whl (40 kB)
+Collecting astor
+  Downloading astor-0.8.1-py2.py3-none-any.whl (27 kB)
+Collecting watchdog
+  Downloading watchdog-2.1.2-py3-none-manylinux2014_x86_64.whl (74 kB)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pillow>=6.2.0
+  Downloading Pillow-8.2.0-cp37-cp37m-manylinux1_x86_64.whl (3.0 MB)
+Collecting python-dateutil
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting gitpython
+  Downloading GitPython-3.1.18-py3-none-any.whl (170 kB)
+Collecting base58
+  Downloading base58-2.1.0-py3-none-any.whl (5.6 kB)
+Collecting tornado>=5.0
+  Downloading tornado-6.1-cp37-cp37m-manylinux2010_x86_64.whl (428 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.3.1-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting cycler>=0.10
+  Downloading cycler-0.10.0-py2.py3-none-any.whl (6.5 kB)
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3
+  Downloading pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Collecting six
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting httpx==0.13.3
+  Downloading httpx-0.13.3-py3-none-any.whl (55 kB)
+Collecting tqdm
+  Downloading tqdm-4.61.1-py2.py3-none-any.whl (75 kB)
+Collecting joblib
+  Downloading joblib-1.0.1-py3-none-any.whl (303 kB)
+Collecting regex
+  Downloading regex-2021.4.4-cp37-cp37m-manylinux2014_x86_64.whl (720 kB)
+Collecting srsly<3.0.0,>=2.4.1
+  Downloading srsly-2.4.1-cp37-cp37m-manylinux2014_x86_64.whl (456 kB)
+Collecting cymem<2.1.0,>=2.0.2
+  Downloading cymem-2.0.5-cp37-cp37m-manylinux2014_x86_64.whl (35 kB)
+Collecting typer<0.4.0,>=0.3.0
+  Downloading typer-0.3.2-py3-none-any.whl (21 kB)
+Collecting setuptools
+  Downloading setuptools-57.0.0-py3-none-any.whl (821 kB)
+Collecting catalogue<2.1.0,>=2.0.3
+  Downloading catalogue-2.0.4-py3-none-any.whl (16 kB)
+Collecting preshed<3.1.0,>=3.0.2
+  Downloading preshed-3.0.5-cp37-cp37m-manylinux2014_x86_64.whl (126 kB)
+Collecting jinja2
+  Downloading Jinja2-3.0.1-py3-none-any.whl (133 kB)
+Collecting murmurhash<1.1.0,>=0.28.0
+  Downloading murmurhash-1.0.5-cp37-cp37m-manylinux2014_x86_64.whl (20 kB)
+Collecting thinc<8.1.0,>=8.0.3
+  Downloading thinc-8.0.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (618 kB)
+Collecting spacy-legacy<3.1.0,>=3.0.4
+  Downloading spacy_legacy-3.0.6-py2.py3-none-any.whl (12 kB)
+Collecting typing-extensions<4.0.0.0,>=3.7.4
+  Downloading typing_extensions-3.10.0.0-py3-none-any.whl (26 kB)
+Collecting pathy>=0.3.5
+  Downloading pathy-0.5.2-py3-none-any.whl (42 kB)
+Collecting blis<0.8.0,>=0.4.0
+  Downloading blis-0.7.4-cp37-cp37m-manylinux2014_x86_64.whl (9.8 MB)
+Collecting pydantic<1.8.0,>=1.7.1
+  Downloading pydantic-1.7.4-cp37-cp37m-manylinux2014_x86_64.whl (9.1 MB)
+Collecting wasabi<1.1.0,>=0.8.1
+  Downloading wasabi-0.8.2-py3-none-any.whl (23 kB)
+Collecting hstspreload
+  Downloading hstspreload-2020.12.22-py3-none-any.whl (994 kB)
+Collecting sniffio
+  Downloading sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting idna==2.*
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting httpcore==0.9.*
+  Downloading httpcore-0.9.1-py3-none-any.whl (42 kB)
+Collecting chardet==3.*
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Collecting rfc3986<2,>=1.3
+  Downloading rfc3986-1.5.0-py2.py3-none-any.whl (31 kB)
+Collecting certifi
+  Downloading certifi-2021.5.30-py2.py3-none-any.whl (145 kB)
+Collecting h2==3.*
+  Downloading h2-3.2.0-py2.py3-none-any.whl (65 kB)
+Collecting h11<0.10,>=0.8
+  Downloading h11-0.9.0-py2.py3-none-any.whl (53 kB)
+Collecting hyperframe<6,>=5.2.0
+  Downloading hyperframe-5.2.0-py2.py3-none-any.whl (12 kB)
+Collecting hpack<4,>=3.0
+  Downloading hpack-3.0.0-py2.py3-none-any.whl (38 kB)
+Collecting entrypoints
+  Downloading entrypoints-0.3-py2.py3-none-any.whl (11 kB)
+Collecting toolz
+  Downloading toolz-0.11.1-py3-none-any.whl (55 kB)
+Collecting jsonschema
+  Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.4.1-py3-none-any.whl (5.2 kB)
+Collecting pytz>=2017.3
+  Downloading pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Collecting smart-open<4.0.0,>=2.2.0
+  Downloading smart_open-3.0.0.tar.gz (113 kB)
+Collecting ipywidgets>=7.0.0
+  Downloading ipywidgets-7.6.3-py2.py3-none-any.whl (121 kB)
+Collecting ipykernel>=5.1.2
+  Downloading ipykernel-5.5.5-py3-none-any.whl (120 kB)
+Collecting traitlets>=4.3.2
+  Downloading traitlets-5.0.5-py3-none-any.whl (100 kB)
+Collecting jupyter-client
+  Downloading jupyter_client-6.1.12-py3-none-any.whl (112 kB)
+Collecting ipython>=5.0.0
+  Downloading ipython-7.24.1-py3-none-any.whl (785 kB)
+Collecting pygments
+  Downloading Pygments-2.9.0-py3-none-any.whl (1.0 MB)
+Collecting jedi>=0.16
+  Downloading jedi-0.18.0-py2.py3-none-any.whl (1.4 MB)
+Collecting pexpect>4.3
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+Collecting pickleshare
+  Downloading pickleshare-0.7.5-py2.py3-none-any.whl (6.9 kB)
+Collecting backcall
+  Downloading backcall-0.2.0-py2.py3-none-any.whl (11 kB)
+Collecting prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0
+  Downloading prompt_toolkit-3.0.19-py3-none-any.whl (368 kB)
+Collecting matplotlib-inline
+  Downloading matplotlib_inline-0.1.2-py3-none-any.whl (8.2 kB)
+Collecting decorator
+  Downloading decorator-5.0.9-py3-none-any.whl (8.9 kB)
+Collecting jupyterlab-widgets>=1.0.0
+  Downloading jupyterlab_widgets-1.0.0-py3-none-any.whl (243 kB)
+Collecting nbformat>=4.2.0
+  Downloading nbformat-5.1.3-py3-none-any.whl (178 kB)
+Collecting widgetsnbextension~=3.5.0
+  Downloading widgetsnbextension-3.5.1-py2.py3-none-any.whl (2.2 MB)
+Collecting parso<0.9.0,>=0.8.0
+  Downloading parso-0.8.2-py2.py3-none-any.whl (94 kB)
+Collecting MarkupSafe>=2.0
+  Downloading MarkupSafe-2.0.1-cp37-cp37m-manylinux2010_x86_64.whl (31 kB)
+Collecting ipython-genutils
+  Downloading ipython_genutils-0.2.0-py2.py3-none-any.whl (26 kB)
+Collecting jupyter-core
+  Downloading jupyter_core-4.7.1-py3-none-any.whl (82 kB)
+Collecting pyrsistent>=0.14.0
+  Downloading pyrsistent-0.17.3.tar.gz (106 kB)
+Collecting attrs>=17.4.0
+  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting importlib-metadata
+  Downloading importlib_metadata-4.5.0-py3-none-any.whl (17 kB)
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Collecting wcwidth
+  Downloading wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.5-py2.py3-none-any.whl (138 kB)
+Collecting notebook>=4.4.1
+  Downloading notebook-6.4.0-py3-none-any.whl (9.5 MB)
+Collecting Send2Trash>=1.5.0
+  Downloading Send2Trash-1.5.0-py3-none-any.whl (12 kB)
+Collecting prometheus-client
+  Downloading prometheus_client-0.11.0-py2.py3-none-any.whl (56 kB)
+Collecting nbconvert
+  Downloading nbconvert-6.0.7-py3-none-any.whl (552 kB)
+Collecting pyzmq>=17
+  Downloading pyzmq-22.1.0-cp37-cp37m-manylinux1_x86_64.whl (1.1 MB)
+Collecting terminado>=0.8.3
+  Downloading terminado-0.10.1-py3-none-any.whl (14 kB)
+Collecting argon2-cffi
+  Downloading argon2_cffi-20.1.0-cp35-abi3-manylinux1_x86_64.whl (97 kB)
+Collecting cffi>=1.0.0
+  Downloading cffi-1.14.5-cp37-cp37m-manylinux1_x86_64.whl (402 kB)
+Collecting pycparser
+  Downloading pycparser-2.20-py2.py3-none-any.whl (112 kB)
+Collecting gitdb<5,>=4.0.1
+  Downloading gitdb-4.0.7-py3-none-any.whl (63 kB)
+Collecting smmap<5,>=3.0.1
+  Downloading smmap-4.0.0-py2.py3-none-any.whl (24 kB)
+Collecting testpath
+  Downloading testpath-0.5.0-py3-none-any.whl (84 kB)
+Collecting pandocfilters>=1.4.1
+  Downloading pandocfilters-1.4.3.tar.gz (16 kB)
+Collecting defusedxml
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting nbclient<0.6.0,>=0.5.0
+  Downloading nbclient-0.5.3-py3-none-any.whl (82 kB)
+Collecting bleach
+  Downloading bleach-3.3.0-py2.py3-none-any.whl (283 kB)
+Collecting mistune<2,>=0.8.1
+  Downloading mistune-0.8.4-py2.py3-none-any.whl (16 kB)
+Collecting jupyterlab-pygments
+  Downloading jupyterlab_pygments-0.1.2-py2.py3-none-any.whl (4.6 kB)
+Collecting async-generator
+  Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.5.1-py3-none-any.whl (5.0 kB)
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Building wheels for collected packages: wave, googletrans, pyrsistent, smart-open, blinker, pandocfilters
+  Building wheel for wave (setup.py): started
+  Building wheel for wave (setup.py): finished with status 'done'
+  Created wheel for wave: filename=Wave-0.0.2-py3-none-any.whl size=1238 sha256=f723aaccc38498a2984e5f660ea5eb071eaa83eed6d1357335eccc4f01ac2453
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/25/e8/fe/458c7dac00c6abedad6380b9d0ef1a5cbc7c21807df1d30915
+  Building wheel for googletrans (setup.py): started
+  Building wheel for googletrans (setup.py): finished with status 'done'
+  Created wheel for googletrans: filename=googletrans-3.1.0a0-py3-none-any.whl size=16368 sha256=a1791abaeb655aff68b1895e1514ddc2447821bb65b23be7c2ec40878f67b662
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/0c/be/fe/93a6a40ffe386e16089e44dad9018ebab9dc4cb9eb7eab65ae
+  Building wheel for pyrsistent (setup.py): started
+  Building wheel for pyrsistent (setup.py): finished with status 'done'
+  Created wheel for pyrsistent: filename=pyrsistent-0.17.3-cp37-cp37m-linux_x86_64.whl size=72437 sha256=cc7779fe98e548aeaba51bcc42387400ab3738d1d0fc8c1e6b3b7f0f85014226
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/a5/52/bf/71258a1d7b3c8cbe1ee53f9314c6f65f20385481eaee573cc5
+  Building wheel for smart-open (setup.py): started
+  Building wheel for smart-open (setup.py): finished with status 'done'
+  Created wheel for smart-open: filename=smart_open-3.0.0-py3-none-any.whl size=107106 sha256=d13c8a12982ca411b7db616a26255aca08fa57edd9001a6c8ee9206ceb2fad20
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/83/a6/12/bf3c1a667bde4251be5b7a3368b2d604c9af2105b5c1cb1870
+  Building wheel for blinker (setup.py): started
+  Building wheel for blinker (setup.py): finished with status 'done'
+  Created wheel for blinker: filename=blinker-1.4-py3-none-any.whl size=13479 sha256=0ff765082e92961ccda4fe267a4ad11a11f2cdf232021e469c063c3ed3d42583
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/22/f5/18/df711b66eb25b21325c132757d4314db9ac5e8dabeaf196eab
+  Building wheel for pandocfilters (setup.py): started
+  Building wheel for pandocfilters (setup.py): finished with status 'done'
+  Created wheel for pandocfilters: filename=pandocfilters-1.4.3-py3-none-any.whl size=8006 sha256=622fd6aa09917f955eb61ede51e26eb0e752a488e80a082e2fa21996f5b36c51
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7mcb02p1/wheels/42/81/34/545dc2fbf0e9137811e901108d37fc04650e81d48f97078000
+Successfully built wave googletrans pyrsistent smart-open blinker pandocfilters
+Installing collected packages: zipp, typing-extensions, ipython-genutils, traitlets, six, setuptools, pyrsistent, importlib-metadata, attrs, wcwidth, tornado, pyzmq, python-dateutil, pyparsing, ptyprocess, parso, jupyter-core, jsonschema, webencodings, pygments, pycparser, prompt-toolkit, pickleshare, pexpect, packaging, nest-asyncio, nbformat, matplotlib-inline, MarkupSafe, jupyter-client, jedi, decorator, backcall, async-generator, testpath, pandocfilters, nbclient, mistune, jupyterlab-pygments, jinja2, ipython, entrypoints, defusedxml, cffi, bleach, terminado, Send2Trash, prometheus-client, nbconvert, ipykernel, argon2-cffi, urllib3, notebook, idna, chardet, certifi, widgetsnbextension, smmap, requests, pytz, numpy, murmurhash, jupyterlab-widgets, hyperframe, hpack, cymem, click, catalogue, wasabi, typer, toolz, srsly, sniffio, smart-open, pydantic, preshed, pandas, ipywidgets, h2, h11, gitdb, blis, watchdog, validators, tzlocal, tqdm, toml, thinc, spacy-legacy, rfc3986, pydeck, pyarrow, protobuf, pillow, pathy, httpcore, hstspreload, gitpython, cachetools, blinker, base58, astor, altair, streamlit, spacy, regex, kiwisolver, joblib, httpx, cycler, wave, speechrecognition, spacy-streamlit, nltk, matplotlib, gtts, googletrans
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.4.1
+    Uninstalling zipp-3.4.1:
+      Successfully uninstalled zipp-3.4.1
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing-extensions 3.10.0.0
+    Uninstalling typing-extensions-3.10.0.0:
+      Successfully uninstalled typing-extensions-3.10.0.0
+  Attempting uninstall: ipython-genutils
+    Found existing installation: ipython-genutils 0.2.0
+    Uninstalling ipython-genutils-0.2.0:
+      Successfully uninstalled ipython-genutils-0.2.0
+  Attempting uninstall: traitlets
+    Found existing installation: traitlets 5.0.5
+    Uninstalling traitlets-5.0.5:
+      Successfully uninstalled traitlets-5.0.5
+  Attempting uninstall: six
+    Found existing installation: six 1.16.0
+    Uninstalling six-1.16.0:
+      Successfully uninstalled six-1.16.0
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 57.0.0
+    Uninstalling setuptools-57.0.0:
+      Successfully uninstalled setuptools-57.0.0
+  Attempting uninstall: pyrsistent
+    Found existing installation: pyrsistent 0.17.3
+    Uninstalling pyrsistent-0.17.3:
+      Successfully uninstalled pyrsistent-0.17.3
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 4.5.0
+    Uninstalling importlib-metadata-4.5.0:
+      Successfully uninstalled importlib-metadata-4.5.0
+  Attempting uninstall: attrs
+    Found existing installation: attrs 21.2.0
+    Uninstalling attrs-21.2.0:
+      Successfully uninstalled attrs-21.2.0
+  Attempting uninstall: wcwidth
+    Found existing installation: wcwidth 0.2.5
+    Uninstalling wcwidth-0.2.5:
+      Successfully uninstalled wcwidth-0.2.5
+  Attempting uninstall: tornado
+    Found existing installation: tornado 6.1
+    Uninstalling tornado-6.1:
+      Successfully uninstalled tornado-6.1
+  Attempting uninstall: pyzmq
+    Found existing installation: pyzmq 22.1.0
+    Uninstalling pyzmq-22.1.0:
+      Successfully uninstalled pyzmq-22.1.0
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.1
+    Uninstalling python-dateutil-2.8.1:
+      Successfully uninstalled python-dateutil-2.8.1
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 2.4.7
+    Uninstalling pyparsing-2.4.7:
+      Successfully uninstalled pyparsing-2.4.7
+  Attempting uninstall: ptyprocess
+    Found existing installation: ptyprocess 0.7.0
+    Uninstalling ptyprocess-0.7.0:
+      Successfully uninstalled ptyprocess-0.7.0
+  Attempting uninstall: parso
+    Found existing installation: parso 0.8.2
+    Uninstalling parso-0.8.2:
+      Successfully uninstalled parso-0.8.2
+  Attempting uninstall: jupyter-core
+    Found existing installation: jupyter-core 4.7.1
+    Uninstalling jupyter-core-4.7.1:
+      Successfully uninstalled jupyter-core-4.7.1
+  Attempting uninstall: jsonschema
+    Found existing installation: jsonschema 3.2.0
+    Uninstalling jsonschema-3.2.0:
+      Successfully uninstalled jsonschema-3.2.0
+  Attempting uninstall: webencodings
+    Found existing installation: webencodings 0.5.1
+    Uninstalling webencodings-0.5.1:
+      Successfully uninstalled webencodings-0.5.1
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.9.0
+    Uninstalling Pygments-2.9.0:
+      Successfully uninstalled Pygments-2.9.0
+  Attempting uninstall: pycparser
+    Found existing installation: pycparser 2.20
+    Uninstalling pycparser-2.20:
+      Successfully uninstalled pycparser-2.20
+  Attempting uninstall: prompt-toolkit
+    Found existing installation: prompt-toolkit 3.0.18
+    Uninstalling prompt-toolkit-3.0.18:
+      Successfully uninstalled prompt-toolkit-3.0.18
+  Attempting uninstall: pickleshare
+    Found existing installation: pickleshare 0.7.5
+    Uninstalling pickleshare-0.7.5:
+      Successfully uninstalled pickleshare-0.7.5
+  Attempting uninstall: pexpect
+    Found existing installation: pexpect 4.8.0
+    Uninstalling pexpect-4.8.0:
+      Successfully uninstalled pexpect-4.8.0
+  Attempting uninstall: packaging
+    Found existing installation: packaging 20.9
+    Uninstalling packaging-20.9:
+      Successfully uninstalled packaging-20.9
+  Attempting uninstall: nest-asyncio
+    Found existing installation: nest-asyncio 1.5.1
+    Uninstalling nest-asyncio-1.5.1:
+      Successfully uninstalled nest-asyncio-1.5.1
+  Attempting uninstall: nbformat
+    Found existing installation: nbformat 5.1.3
+    Uninstalling nbformat-5.1.3:
+      Successfully uninstalled nbformat-5.1.3
+  Attempting uninstall: matplotlib-inline
+    Found existing installation: matplotlib-inline 0.1.2
+    Uninstalling matplotlib-inline-0.1.2:
+      Successfully uninstalled matplotlib-inline-0.1.2
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 2.0.1
+    Uninstalling MarkupSafe-2.0.1:
+      Successfully uninstalled MarkupSafe-2.0.1
+  Attempting uninstall: jupyter-client
+    Found existing installation: jupyter-client 6.1.12
+    Uninstalling jupyter-client-6.1.12:
+      Successfully uninstalled jupyter-client-6.1.12
+  Attempting uninstall: jedi
+    Found existing installation: jedi 0.18.0
+    Uninstalling jedi-0.18.0:
+      Successfully uninstalled jedi-0.18.0
+  Attempting uninstall: decorator
+    Found existing installation: decorator 5.0.9
+    Uninstalling decorator-5.0.9:
+      Successfully uninstalled decorator-5.0.9
+  Attempting uninstall: backcall
+    Found existing installation: backcall 0.2.0
+    Uninstalling backcall-0.2.0:
+      Successfully uninstalled backcall-0.2.0
+  Attempting uninstall: async-generator
+    Found existing installation: async-generator 1.10
+    Uninstalling async-generator-1.10:
+      Successfully uninstalled async-generator-1.10
+  Attempting uninstall: testpath
+    Found existing installation: testpath 0.5.0
+    Uninstalling testpath-0.5.0:
+      Successfully uninstalled testpath-0.5.0
+  Attempting uninstall: pandocfilters
+    Found existing installation: pandocfilters 1.4.3
+    Uninstalling pandocfilters-1.4.3:
+      Successfully uninstalled pandocfilters-1.4.3
+  Attempting uninstall: nbclient
+    Found existing installation: nbclient 0.5.3
+    Uninstalling nbclient-0.5.3:
+      Successfully uninstalled nbclient-0.5.3
+  Attempting uninstall: mistune
+    Found existing installation: mistune 0.8.4
+    Uninstalling mistune-0.8.4:
+      Successfully uninstalled mistune-0.8.4
+  Attempting uninstall: jupyterlab-pygments
+    Found existing installation: jupyterlab-pygments 0.1.2
+    Uninstalling jupyterlab-pygments-0.1.2:
+      Successfully uninstalled jupyterlab-pygments-0.1.2
+  Attempting uninstall: jinja2
+    Found existing installation: Jinja2 3.0.1
+    Uninstalling Jinja2-3.0.1:
+      Successfully uninstalled Jinja2-3.0.1
+  Attempting uninstall: ipython
+    Found existing installation: ipython 7.24.1
+    Uninstalling ipython-7.24.1:
+      Successfully uninstalled ipython-7.24.1
+  Attempting uninstall: entrypoints
+    Found existing installation: entrypoints 0.3
+    Uninstalling entrypoints-0.3:
+      Successfully uninstalled entrypoints-0.3
+  Attempting uninstall: defusedxml
+    Found existing installation: defusedxml 0.7.1
+    Uninstalling defusedxml-0.7.1:
+      Successfully uninstalled defusedxml-0.7.1
+  Attempting uninstall: cffi
+    Found existing installation: cffi 1.14.5
+    Uninstalling cffi-1.14.5:
+      Successfully uninstalled cffi-1.14.5
+  Attempting uninstall: bleach
+    Found existing installation: bleach 3.3.0
+    Uninstalling bleach-3.3.0:
+      Successfully uninstalled bleach-3.3.0
+  Attempting uninstall: terminado
+    Found existing installation: terminado 0.10.1
+    Uninstalling terminado-0.10.1:
+      Successfully uninstalled terminado-0.10.1
+  Attempting uninstall: Send2Trash
+    Found existing installation: Send2Trash 1.5.0
+    Uninstalling Send2Trash-1.5.0:
+      Successfully uninstalled Send2Trash-1.5.0
+  Attempting uninstall: prometheus-client
+    Found existing installation: prometheus-client 0.11.0
+    Uninstalling prometheus-client-0.11.0:
+      Successfully uninstalled prometheus-client-0.11.0
+  Attempting uninstall: nbconvert
+    Found existing installation: nbconvert 6.0.7
+    Uninstalling nbconvert-6.0.7:
+      Successfully uninstalled nbconvert-6.0.7
+  Attempting uninstall: ipykernel
+    Found existing installation: ipykernel 5.5.5
+    Uninstalling ipykernel-5.5.5:
+      Successfully uninstalled ipykernel-5.5.5
+  Attempting uninstall: argon2-cffi
+    Found existing installation: argon2-cffi 20.1.0
+    Uninstalling argon2-cffi-20.1.0:
+      Successfully uninstalled argon2-cffi-20.1.0
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 1.26.5
+    Uninstalling urllib3-1.26.5:
+      Successfully uninstalled urllib3-1.26.5
+  Attempting uninstall: notebook
+    Found existing installation: notebook 6.4.0
+    Uninstalling notebook-6.4.0:
+      Successfully uninstalled notebook-6.4.0
+  Attempting uninstall: idna
+    Found existing installation: idna 2.10
+    Uninstalling idna-2.10:
+      Successfully uninstalled idna-2.10
+  Attempting uninstall: chardet
+    Found existing installation: chardet 4.0.0
+    Uninstalling chardet-4.0.0:
+      Successfully uninstalled chardet-4.0.0
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2021.5.30
+    Uninstalling certifi-2021.5.30:
+      Successfully uninstalled certifi-2021.5.30
+  Attempting uninstall: widgetsnbextension
+    Found existing installation: widgetsnbextension 3.5.1
+    Uninstalling widgetsnbextension-3.5.1:
+      Successfully uninstalled widgetsnbextension-3.5.1
+  Attempting uninstall: smmap
+    Found existing installation: smmap 4.0.0
+    Uninstalling smmap-4.0.0:
+      Successfully uninstalled smmap-4.0.0
+  Attempting uninstall: requests
+    Found existing installation: requests 2.25.1
+    Uninstalling requests-2.25.1:
+      Successfully uninstalled requests-2.25.1
+  Attempting uninstall: pytz
+    Found existing installation: pytz 2021.1
+    Uninstalling pytz-2021.1:
+      Successfully uninstalled pytz-2021.1
+  Attempting uninstall: numpy
+    Found existing installation: numpy 1.20.3
+    Uninstalling numpy-1.20.3:
+      Successfully uninstalled numpy-1.20.3
+  Attempting uninstall: jupyterlab-widgets
+    Found existing installation: jupyterlab-widgets 1.0.0
+    Uninstalling jupyterlab-widgets-1.0.0:
+      Successfully uninstalled jupyterlab-widgets-1.0.0
+  Attempting uninstall: click
+    Found existing installation: click 7.1.2
+    Uninstalling click-7.1.2:
+      Successfully uninstalled click-7.1.2
+  Attempting uninstall: toolz
+    Found existing installation: toolz 0.11.1
+    Uninstalling toolz-0.11.1:
+      Successfully uninstalled toolz-0.11.1
+  Attempting uninstall: pandas
+    Found existing installation: pandas 1.2.4
+    Uninstalling pandas-1.2.4:
+      Successfully uninstalled pandas-1.2.4
+  Attempting uninstall: ipywidgets
+    Found existing installation: ipywidgets 7.6.3
+    Uninstalling ipywidgets-7.6.3:
+      Successfully uninstalled ipywidgets-7.6.3
+  Attempting uninstall: gitdb
+    Found existing installation: gitdb 4.0.7
+    Uninstalling gitdb-4.0.7:
+      Successfully uninstalled gitdb-4.0.7
+  Attempting uninstall: watchdog
+    Found existing installation: watchdog 2.1.2
+    Uninstalling watchdog-2.1.2:
+      Successfully uninstalled watchdog-2.1.2
+  Attempting uninstall: validators
+    Found existing installation: validators 0.18.2
+    Uninstalling validators-0.18.2:
+      Successfully uninstalled validators-0.18.2
+  Attempting uninstall: tzlocal
+    Found existing installation: tzlocal 2.1
+    Uninstalling tzlocal-2.1:
+      Successfully uninstalled tzlocal-2.1
+  Attempting uninstall: toml
+    Found existing installation: toml 0.10.2
+    Uninstalling toml-0.10.2:
+      Successfully uninstalled toml-0.10.2
+  Attempting uninstall: pydeck
+    Found existing installation: pydeck 0.6.2
+    Uninstalling pydeck-0.6.2:
+      Successfully uninstalled pydeck-0.6.2
+  Attempting uninstall: pyarrow
+    Found existing installation: pyarrow 4.0.1
+    Uninstalling pyarrow-4.0.1:
+      Successfully uninstalled pyarrow-4.0.1
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 3.17.3
+    Uninstalling protobuf-3.17.3:
+      Successfully uninstalled protobuf-3.17.3
+  Attempting uninstall: pillow
+    Found existing installation: Pillow 8.2.0
+    Uninstalling Pillow-8.2.0:
+      Successfully uninstalled Pillow-8.2.0
+  Attempting uninstall: gitpython
+    Found existing installation: GitPython 3.1.14
+    Uninstalling GitPython-3.1.14:
+      Successfully uninstalled GitPython-3.1.14
+  Attempting uninstall: cachetools
+    Found existing installation: cachetools 4.2.2
+    Uninstalling cachetools-4.2.2:
+      Successfully uninstalled cachetools-4.2.2
+  Attempting uninstall: blinker
+    Found existing installation: blinker 1.4
+    Uninstalling blinker-1.4:
+      Successfully uninstalled blinker-1.4
+  Attempting uninstall: base58
+    Found existing installation: base58 2.1.0
+    Uninstalling base58-2.1.0:
+      Successfully uninstalled base58-2.1.0
+  Attempting uninstall: astor
+    Found existing installation: astor 0.8.1
+    Uninstalling astor-0.8.1:
+      Successfully uninstalled astor-0.8.1
+  Attempting uninstall: altair
+    Found existing installation: altair 4.1.0
+    Uninstalling altair-4.1.0:
+      Successfully uninstalled altair-4.1.0
+  Attempting uninstall: streamlit
+    Found existing installation: streamlit 0.83.0
+    Uninstalling streamlit-0.83.0:
+      Successfully uninstalled streamlit-0.83.0
+Successfully installed MarkupSafe-2.0.1 Send2Trash-1.5.0 altair-4.1.0 argon2-cffi-20.1.0 astor-0.8.1 async-generator-1.10 attrs-21.2.0 backcall-0.2.0 base58-2.1.0 bleach-3.3.0 blinker-1.4 blis-0.7.4 cachetools-4.2.2 catalogue-2.0.4 certifi-2021.5.30 cffi-1.14.5 chardet-3.0.4 click-7.1.2 cycler-0.10.0 cymem-2.0.5 decorator-5.0.9 defusedxml-0.7.1 entrypoints-0.3 gitdb-4.0.7 gitpython-3.1.18 googletrans-3.1.0a0 gtts-2.2.2 h11-0.9.0 h2-3.2.0 hpack-3.0.0 hstspreload-2020.12.22 httpcore-0.9.1 httpx-0.13.3 hyperframe-5.2.0 idna-2.10 importlib-metadata-4.5.0 ipykernel-5.5.5 ipython-7.24.1 ipython-genutils-0.2.0 ipywidgets-7.6.3 jedi-0.18.0 jinja2-3.0.1 joblib-1.0.1 jsonschema-3.2.0 jupyter-client-6.1.12 jupyter-core-4.7.1 jupyterlab-pygments-0.1.2 jupyterlab-widgets-1.0.0 kiwisolver-1.3.1 matplotlib-3.3.3 matplotlib-inline-0.1.2 mistune-0.8.4 murmurhash-1.0.5 nbclient-0.5.3 nbconvert-6.0.7 nbformat-5.1.3 nest-asyncio-1.5.1 nltk-3.6.2 notebook-6.4.0 numpy-1.19.4 packaging-20.9 pandas-1.2.4 pandocfilters-1.4.3 parso-0.8.2 pathy-0.5.2 pexpect-4.8.0 pickleshare-0.7.5 pillow-8.2.0 preshed-3.0.5 prometheus-client-0.11.0 prompt-toolkit-3.0.19 protobuf-3.17.3 ptyprocess-0.7.0 pyarrow-4.0.1 pycparser-2.20 pydantic-1.7.4 pydeck-0.6.2 pygments-2.9.0 pyparsing-2.4.7 pyrsistent-0.17.3 python-dateutil-2.8.1 pytz-2021.1 pyzmq-22.1.0 regex-2021.4.4 requests-2.25.1 rfc3986-1.5.0 setuptools-57.0.0 six-1.16.0 smart-open-3.0.0 smmap-4.0.0 sniffio-1.2.0 spacy-3.0.6 spacy-legacy-3.0.6 spacy-streamlit-1.0.0 speechrecognition-3.8.1 srsly-2.4.1 streamlit-0.82.0 terminado-0.10.1 testpath-0.5.0 thinc-8.0.5 toml-0.10.2 toolz-0.11.1 tornado-6.1 tqdm-4.61.1 traitlets-5.0.5 typer-0.3.2 typing-extensions-3.10.0.0 tzlocal-2.1 urllib3-1.26.5 validators-0.18.2 wasabi-0.8.2 watchdog-2.1.2 wave-0.0.2 wcwidth-0.2.5 webencodings-0.5.1 widgetsnbextension-3.5.1 zipp-3.4.1
+[35mWARNING[0m: You are using pip version 21.1.1; however, version 21.1.2 is available.
+You should consider upgrading via the '/home/appuser/venv/bin/python -m pip install --upgrade pip' command.
+[32m[manager] [0mPython dependencies were installed from /app/speechtext-analytic-app/requirements.txt using pip.
+[32m[manager] [0mProcessed dependencies!
+2021-06-19 12:33:50.351 An update to the [server] config option section was detected. To have these changes be reflected, please restart streamlit.
+2021-06-19 12:33:50.632 Generating new fontManager, this may take some time...
+
+
+
+[client] Connecting...
