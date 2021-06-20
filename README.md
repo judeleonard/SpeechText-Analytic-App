@@ -1,4 +1,8 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+![GitHub contributors](https://img.shields.io/github/contributors/judeleonard/SpeechText-Analytic-App)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/judeleonard/SpeechText-Analytic-App)
+![GitHub repo size](https://img.shields.io/github/repo-size/judeleonard/SpeechText-Analytic-App)
    
 # Project Overview
 This is an AI web application that offers transcription of text to speech and speech to text using Google pretrained model. The goal is to extract insight from audio speech in the form of text
