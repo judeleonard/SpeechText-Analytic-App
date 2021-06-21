@@ -3,8 +3,9 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/judeleonard/SpeechText-Analytic-App)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/judeleonard/SpeechText-Analytic-App)
 ![GitHub repo size](https://img.shields.io/github/repo-size/judeleonard/SpeechText-Analytic-App)
-   
-# Project Overview
+[![GitHub stars](https://img.shields.io/github/stars/judeleonard/SpeechText-Analytic-App)](https://github.com/judeleonard/SpeechText-Analytic-App/stargazers)
+
+ # Project Overview
 This is an AI web application that offers transcription of text to speech and speech to text using Google pretrained model. The goal is to extract insight from audio speech in the form of text
 
 [App Demo](https://res.cloudinary.com/dfgg73dvr/video/upload/v1624127072/ezgif.com-gif-maker_k56lry.mp4)
@@ -19,7 +20,7 @@ extract insights like specific key words from the speech and analyzing sentiment
 Another part of this project featured using Google translate to recognize the three major Nigerian native languages. However, google does not support this feature yet, but recognizes Nigerian accent which was included in the app.
 
 ## Further Improvement
-- Developing an hate speech detecting algorithm to classify hate speech
+- Developing a hate speech detecting algorithm to classify hate speech
 - Training Neural Network model to classify raw audio files into __Sad__, __Happy__, __Disgust__, and __Fearful__
 - Possibly having a model that can classify Nigerian languages in the form of audio or text preferably (Hausa, Igbo, Yoruba)
 
