@@ -3,7 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/judeleonard/SpeechText-Analytic-App)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/judeleonard/SpeechText-Analytic-App)
 ![GitHub repo size](https://img.shields.io/github/repo-size/judeleonard/SpeechText-Analytic-App)
-[![GitHub stars](https://img.shields.io/github/stars/judeleonard/SpeechText-Analytic-App)](https://github.com/judeleonard/SpeechText-Analytic-App/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/judeleonard/SpeechText-Analytic-App?color=orange&logo=github)](https://github.com/judeleonard/SpeechText-Analytic-App/stargazers)
 
  # Project Overview
 This is an AI web application that offers transcription of text to speech and speech to text using Google pretrained model. The goal is to extract insight from audio speech in the form of text
